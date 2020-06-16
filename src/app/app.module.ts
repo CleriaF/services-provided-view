@@ -20,6 +20,8 @@ import {
   NbToastrModule,
   NbWindowModule,
 } from '@nebular/theme';
+import { FormsModule } from '@angular/forms';
+import { ClientesService } from './clientes.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -39,6 +41,10 @@ import {
     }),
     CoreModule.forRoot(),
     ThemeModule.forRoot(),
+    FormsModule
+  ],
+  providers: [
+    ClientesService
   ],
   bootstrap: [AppComponent],
 })

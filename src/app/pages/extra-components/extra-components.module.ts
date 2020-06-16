@@ -33,10 +33,11 @@ import { AlertComponent } from './alert/alert.component';
 import { ChatComponent } from './chat/chat.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { DayCellComponent } from './calendar/day-cell/day-cell.component';
-import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.component';
-import { NebularSelectComponent } from './form-inputs/nebular-select/nebular-select.component';
+
 import { CalendarKitFullCalendarShowcaseComponent } from './calendar-kit/calendar-kit.component';
 import { CalendarKitMonthCellComponent } from './calendar-kit/month-cell/month-cell.component';
+import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.component';
+import { NebularSelectComponent } from './form-inputs/nebular-select/nebular-select.component';
 
 const COMPONENTS = [
   ExtraComponentsComponent,

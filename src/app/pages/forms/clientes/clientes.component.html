@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-12">
+      <nb-card class="inline-form-card">
+        <nb-card-header>Cadastro de Clientes</nb-card-header>
+        <nb-card-body>
+            <div class="full-name-inputs">
+              <input type="text" [(ngModel)]="cliente.id" disabled nbInput fullWidth placeholder="ID">
+              <input type="text" [(ngModel)]="cliente.dataCadastro" disabled nbInput fullWidth placeholder="Data Cadastro">
+            </div>
+            <div class="full-name-inputs">
+                <input type="text" [(ngModel)]="cliente.nome" nbInput fullWidth placeholder="Nome" name="nome">
+                <input type="text" [(ngModel)]="cliente.cpf" nbInput fullWidth placeholder="CPF" name="cpf">
+            </div>
+          <button type="submit" status="primary" (click)="salvarCliente()" nbButton>Salvar</button>
+        </nb-card-body>       
+      </nb-card>
+    </div>
+</div>
